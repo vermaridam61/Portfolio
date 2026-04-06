@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Store... | Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">TechStore</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <div class="cart-icon" onclick="window.location.href='cart.html'">
+                🛒 <span id="cart-count" class="cart-count">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2 class="section-title">All Gadgets</h2>
+        <div id="product-grid" class="product-grid">
+            <!-- Products inserted here by JS -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
